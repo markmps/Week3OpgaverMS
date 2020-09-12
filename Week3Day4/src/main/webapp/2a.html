@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <style>.mydiv {width: 25px; height: 25px;background-color:yellow; margin:1px;}</style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <p id ="p1"></p>
+        <div id="outer">
+
+            <div class="mydiv" id="div1">div1</div>
+
+            <div class="mydiv" id="div2">div2</div>
+
+        </div>
+
+        <script>
+
+            var outer = document.getElementById("div1");
+            outer.onclick = function (e) {
+                console.log("HI from " + div1.id);
+            };
+
+            var outer = document.getElementById("div2");
+            outer.onclick = function (e) {
+                console.log("HI from " + div2.id);
+            };
+        </script>
+    </body>
+
+</html>
